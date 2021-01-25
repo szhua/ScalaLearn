@@ -1,13 +1,13 @@
 package org.szhua
 
-object ClassApp extends  App {
+object BasicUseApp extends  App {
 
   val greeter = new Greeter("Hello, ", "!")
   greeter.greet("Scala developer")
 
-  val point = Point(1, 2)
-  val anotherPoint = Point(1, 2)
-  val yetAnotherPoint = Point(2, 2)
+  val point = Point1(1, 2)
+  val anotherPoint = Point1(1, 2)
+  val yetAnotherPoint = Point1(2, 2)
   //Instances of case classes are compared by value, not by reference:
   if (point == anotherPoint) {
     println(point + " and " + anotherPoint + " are the same.")
@@ -41,7 +41,7 @@ class Greeter(prefix: String, suffix: String) {
 //case class
 //you can define case classes with the case class keywords
 //You can instantiate case classes without the new keyword:
-case class Point(x: Int, y: Int)
+case class Point1(x: Int, y: Int)
 
 
 
