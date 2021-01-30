@@ -10,6 +10,8 @@ object Tuples extends App {
     //A tuple with two elements can be created as follows:
   val ingredient = ("szhua",26)
 
+  val  a = Tuple2("ww",1)
+
   //Accessing the elements
   //One way of accessing tuple elements is by position.
   // The individual elements are named _1, _2, and so forth.
