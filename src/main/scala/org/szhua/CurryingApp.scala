@@ -32,6 +32,7 @@ object CurryingApp extends App {
   //def execute(arg: Int)(implicit ec: scala.concurrent.ExecutionContext) = ???
 
 
+
   /**
    * IMPLICIT PARAMETERS
    * To specify only certain parameters as implicit, they must be placed in their own implicit parameter list.
@@ -45,8 +46,11 @@ object CurryingApp extends App {
     }
     test1Helper(x)
   }
+  implicit  def  locale :Locale = Locale.CHINA
+
   //显示调用隐式参数，隐式参数的柯里化不能使用部分参数传递
-  test1("hello world")(Locale.CHINA)
+  test1("hello world")
+
 
   val testNumbers =List(1,2,3,4,5,6,7,8,9)
 

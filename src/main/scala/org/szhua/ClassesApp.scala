@@ -14,6 +14,10 @@ object ClassesApp extends  App {
    point2.y = 101 // prints the warning
    point2.getDx =1000
 
+
+
+
+
 }
 
 ///Defining a class

@@ -1,4 +1,4 @@
-package org.szhua.org.szhua
+package org.szhua.test
 
 trait  TestFun {
   def delayedInit(x: => Unit): Unit

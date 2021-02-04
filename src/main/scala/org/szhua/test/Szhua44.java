@@ -1,4 +1,4 @@
-package org.szhua.org.szhua;
+package org.szhua.test;
 
 
 import java.lang.reflect.ParameterizedType;
